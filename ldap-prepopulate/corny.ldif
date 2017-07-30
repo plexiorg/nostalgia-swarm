@@ -1,0 +1,16 @@
+dn: uid=corny,dc=ldap,dc=example,dc=org
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: corny
+uid: corny
+uidNumber: 12345
+gidNumber: 123
+homeDirectory: /home/corny
+loginShell: /bin/bash
+gecos: admin
+userPassword: {crypt}x
+shadowLastChange: 0
+shadowMax: 0
+shadowWarning: 0
