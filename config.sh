@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SWARM_NETWORK="pi-swarm-net"
-SWARM_SHARE="/home/pi/nostalgia-swarm/"
+SWARM_SHARE="/mnt/data/"
 
 LDAP_ADMIN_PW="voravora"
 LDAP_DOMAIN="ldap.example.org"
