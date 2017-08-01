@@ -6,7 +6,7 @@ docker service create                                       \
     --network ${SWARM_NETWORK}                                \
     --replicas 1                                              \
     --name gerrit-service                                     \
-    --publish 8080:8080                                       \
+    --publish 8081:8080                                       \
     --publish 29418:29418                                     \
     --env AUTH_TYPE=LDAP                                      \
     --env LDAP_SERVER=ldap://ldap-service:389                 \
